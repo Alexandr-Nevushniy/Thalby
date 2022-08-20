@@ -12,7 +12,6 @@ header{
 }
 .d-flex{
     display: flex;
-    justify-content: space-between;
 }
 .justify-between{
     justify-content: space-between;
@@ -94,6 +93,148 @@ header .logo{
     position: absolute;
     right: 16%;
     top: 0;
+}
+.avatar_desc{
+    padding-top: 60px;
+    padding-bottom: 248px;
+}
+.container_pic{
+    max-width: 1064px;
+    margin: auto;
+    text-align: center;
+}
+.container_pic h2:first-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 27px;
+}
+.container_pic p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 47px;
+}
+.container_pic p:last-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 52px;
+}
+.container_pic h2:last-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 88px;
+}
+.logo_pic1 a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.logo_pic1 h3:last-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 10px;
+}
+.logo_pic1 h3:first-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-top: 27px;
+    padding-bottom: 17px;
+}
+.logo_pic2 a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.logo_pic2 h4:last-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 10px;
+}
+.logo_pic2 h4:first-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 17px;
+}
+.logo_pic3 a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.logo_pic3 h5:last-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 10px;
+}
+.logo_pic3 h5:first-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    padding-top: 19px;
+    padding-bottom: 17px;
 }
 .People{
     background: rgba(204, 204, 204, 0.3);
