@@ -548,9 +548,11 @@ header .logo{
     color: #FFFFFF;
 }
 .button input{
-    width: 153px;
+    width: 150px;
     height: 32px;
     margin-bottom: 23px;
+    border: 1px solid #000000;
+    border-radius: 0;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -559,7 +561,14 @@ header .logo{
     text-align: center;
     color: #A0A0A0;
 }
+.button1 input:last-of-type{
+    margin-left: 60px;
+}
 .button a{
     display: inline-flex;
+}
+.button2 input{
+    width: 366px;
+    height: 32px;
 }
 
