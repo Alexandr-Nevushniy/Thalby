@@ -547,6 +547,19 @@ header .logo{
     text-align: center;
     color: #FFFFFF;
 }
-.text_button form input{
-    padding: 10px 20px;
+.button input{
+    width: 153px;
+    height: 32px;
+    margin-bottom: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #A0A0A0;
 }
+.button a{
+    display: inline-flex;
+}
+
