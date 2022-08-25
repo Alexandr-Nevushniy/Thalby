@@ -539,6 +539,7 @@ header .logo{
     background: #000000;
     border: 1px solid #000000;
     border-radius: 100px;
+    display: inline-flex;
     padding: 10px 23px 10px 23px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -568,12 +569,54 @@ header .logo{
 .button1 input:last-of-type{
     margin-left: 60px;
 }
-.button a{
-    display: inline-flex;
-}
 .button2 input{
     width: 366px;
     height: 32px;
     margin-bottom: 16px;
 }
-
+.box_list{
+    background: #020202;
+    padding-top: 50px;
+    padding-bottom: 16px;
+}
+.logo_thalby img{
+    margin-bottom: 45px;
+}
+.box_list .icon img{
+    margin-right: 22px;
+    margin-bottom: 96px;
+}
+.box_list h4{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 180px;
+}
+.link_items li a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.link_items_next a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.link_items_next{
+    margin-left: 200px;
+    margin-top: -107px;
+}
