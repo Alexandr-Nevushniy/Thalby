@@ -101,7 +101,6 @@ header .logo{
     padding-top: 60px;
     padding-bottom: 248px;
 }
-
 .avatar_desc h2:first-of-type{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -145,6 +144,18 @@ header .logo{
 .container_img3{
     text-align: center;
 }
+.owl-carousel .logo_pic1{
+    max-width: 314px;
+    margin: auto;
+}
+.owl-carousel .logo_pic2{
+    max-width: 314px;
+    margin: auto;
+}
+.owl-carousel .logo_pic3{
+    max-width: 314px;
+    margin: auto;
+}
 .logo_pic1 h3:first-of-type {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -152,7 +163,7 @@ header .logo{
     font-size: 17px;
     line-height: 20px;
     color: #000000;
-    padding-top: 27px;
+    padding-top: 24px;
     padding-bottom: 17px;
 }
 .logo_pic1 h3:last-of-type{
@@ -362,6 +373,12 @@ header .logo{
 .list_icon{
     padding-top: 190px;
     padding-bottom: 290px;
+}
+.list_icon_medium .logo_icon:first-of-type{
+    margin-left: 20px;
+}
+.list_icon_medium .logo_icon:nth-child(2){
+    margin-left: 35px;
 }
 .list_icon h4{
     font-family: 'Roboto', sans-serif;
@@ -595,9 +612,9 @@ header .logo{
     color: #FFFFFF;
     display: flex;
     align-items: flex-end;
-    margin-left: 180px;
+    margin-left: 190px;
 }
-.link_items li a{
+.link_items a{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -606,6 +623,9 @@ header .logo{
     color: #FFFFFF;
     text-decoration: none;
     margin-bottom: 20px;
+}
+.link_items li:first-of-type{
+    margin-bottom: 36px;
 }
 .link_items_next a{
     font-family: 'Roboto', sans-serif;
@@ -616,7 +636,40 @@ header .logo{
     color: #FFFFFF;
     text-decoration: none;
 }
+.link_items_next li:first-of-type{
+    margin-bottom: 36px;
+}
+.link_items li{
+    margin-bottom: 12px;
+}
+.link_items_next li{
+    margin-bottom: 12px;
+}
 .link_items_next{
     margin-left: 200px;
-    margin-top: -107px;
+    margin-top: -192px;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    left: -46px;
+    top: 35%;
+}
+.owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    font-size: 50px;
+    color: black;
+}
+.owl-nav .owl-next{
+    position: absolute;
+    right: -40px;
+    top: 35%;
+}
+.owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f054";
+    font-size: 50px;
+    color: black;
 }

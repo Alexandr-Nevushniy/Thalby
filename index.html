@@ -6,11 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
 <body>
 <header>
     <div class="container d-flex justify-between align-center">
@@ -45,8 +48,8 @@
                 </a>
             </li>
             <li>
-                <a href="#" title="shop">
-                    <img src="images/shop.svg" alt="shop">
+                <a href="#" title="Shop">
+                    <img src="images/Shop.svg" alt="shop">
                 </a>
             </li>
         </ul>
@@ -81,7 +84,7 @@
         <p>
             Our best sellers
         </p>
-        <div class="container_img3 d-flex justify-between">
+        <div class="container_img3 d-flex justify-between owl-carousel">
             <div class="logo_pic1">
                 <img src="images/Man1_img.png" alt="man_logo">
                 <h3>
@@ -102,6 +105,30 @@
                 <h4>
                     USD 6.99
                 </h4>
+                <a href="#">
+                    Add to cart
+                </a>
+            </div>
+            <div class="logo_pic3">
+                <img src="images/Girl2_logo.png" alt="girl_logo">
+                <h5>
+                    Thalby Guide to<br> German Culture and<br> Heritage
+                </h5>
+                <h5>
+                    USD 6.99
+                </h5>
+                <a href="#">
+                    Add to cart
+                </a>
+            </div>
+            <div class="logo_pic3">
+                <img src="images/Girl2_logo.png" alt="girl_logo">
+                <h5>
+                    Thalby Guide to<br> German Culture and<br> Heritage
+                </h5>
+                <h5>
+                    USD 6.99
+                </h5>
                 <a href="#">
                     Add to cart
                 </a>
@@ -169,19 +196,19 @@
             make Thalby guides unique
         </h4>
         <div class="list_icon_medium d-flex justify-between">
-            <div>
+            <div class="logo_icon">
                 <img src="images/Written.svg" alt="written_logo">
                 <h5>
                     Written by<br> locals
                 </h5>
             </div>
-            <div>
+            <div class="logo_icon">
                 <img src="images/Packed.svg" alt="packed_logo">
                 <h5>
                     Packed with<br> insight
                 </h5>
             </div>
-            <div>
+            <div class="logo_icon">
                 <img src="images/Interviews.svg" alt="interviews_logo">
                 <h5>
                     Interviews with<br> diverse voices
@@ -189,19 +216,19 @@
             </div>
         </div>
         <div class="list_icon_small d-flex justify-between">
-            <div>
+            <div class="logo_icon">
                 <img src="images/Key.svg" alt="key_logo">
                 <h5>
                     Key facts and<br> etiquette tips
                 </h5>
             </div>
-            <div>
+            <div class="logo_icon">
                 <img src="images/A_concise.svg" alt="concise_logo">
                 <h5>
                     A concise<br> 1-hour read
                 </h5>
             </div>
-            <div>
+            <div class="logo_icon">
                 <img src="images/Instant.svg" alt="instant_logo">
                 <h5>
                     Instant<br> digital access
@@ -275,11 +302,11 @@
         </p>
         <div class="button">
             <form action="#" class="button1">
-                <input type="text" value="First Name">
-                <input type="text" value="Last Name">
+                <input type="text" value="First Name" required>
+                <input type="text" value="Last Name" required>
             </form>
             <form action="#" class="button2">
-                <input type="email" value="Email">
+                <input type="email" value="Email" required>
             </form>
             <a href="#">
                 Subscribe
@@ -289,7 +316,7 @@
 </section>
 <footer class="box_list">
     <div class="container d-flex justify-between">
-        <div>
+        <div class="title_link">
             <a href="#" class="logo_thalby">
                 <img src="images/Thalby.svg" alt="thalby_logo">
             </a>
@@ -362,5 +389,12 @@
         </div>
     </div>
 </footer>
+<script src="https://kit.fontawesome.com/9bb7cecad3.js" crossorigin="anonymous"></script>
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
