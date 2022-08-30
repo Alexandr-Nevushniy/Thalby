@@ -430,12 +430,7 @@ header .logo{
     padding-bottom: 52px;
 }
 .card .logo_pic1{
-    max-width: 288px;
     text-align: center;
-}
-.card .logo_pic1 img{
-    display: block;
-    width: 100%;
     margin-top: -188px;
 }
 .card h3:first-of-type{
@@ -641,9 +636,11 @@ header .logo{
 }
 .link_items li{
     margin-bottom: 12px;
+    list-style: none;
 }
 .link_items_next li{
     margin-bottom: 12px;
+    list-style: none;
 }
 .link_items_next{
     margin-left: 200px;
