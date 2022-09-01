@@ -670,3 +670,27 @@ header .logo{
     font-size: 50px;
     color: black;
 }
+.search_info input{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #A0A0A0;
+    padding: 6px 28px;
+    margin-top: 5px;
+}
+.ui-widget-header{
+    border: 2px solid #000000;
+    background: plum;
+    color: #333333;
+    font-weight: bold;
+}
+.ui-dialog{
+    height: 10% !important;
+    width: 250px !important;
+    top: 7% !important;
+}
