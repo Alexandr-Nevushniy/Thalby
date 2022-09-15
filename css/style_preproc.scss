@@ -2,8 +2,6 @@ $main_font:'Roboto', sans-serif;
 $white_color:#FFF;
 $main_color:#000000;
 
-
-
 @mixin max-screen($res)
 {
   @media screen and (max-width: $res)
@@ -11,8 +9,6 @@ $main_color:#000000;
     @content;
   }
 }
-
-
 
 *{
   padding: 0;
@@ -26,6 +22,12 @@ header{
     left: 50%;
     margin-left: -40px;
     top: 12px;
+    @include max-screen(970px){
+      position: relative;
+      left: 0;
+      margin-left: 0;
+      top: 0;
+    }
   }
   .container{
     position: relative;
@@ -62,6 +64,9 @@ header{
 .container{
   margin: auto;
   max-width: 1064px;
+  @include max-screen(1089px){
+    padding: 0 20px;
+  }
 }
 .d-flex{
   display: flex;
@@ -87,6 +92,39 @@ header{
     line-height: 70px;
     color: $main_color;
     margin-bottom: 42px;
+    @include max-screen(1109px){
+      font-size: 56px;
+    }
+    @include max-screen(1074px){
+      font-size: 52px;
+    }
+    @include max-screen(1042px){
+      font-size: 50px;
+    }
+    @include max-screen(1025px){
+      font-size: 47px;
+    }
+    @include max-screen(1001px){
+      font-size: 44px;
+    }
+    @include max-screen(976px){
+      font-size: 42px;
+    }
+    @include max-screen(975px){
+      font-size: 40px;
+    }
+    @include max-screen(970px){
+      font-size: 60px;
+    }
+    @include max-screen(840px){
+      font-size: 55px;
+    }
+    @include max-screen(600px){
+      font-size: 45px;
+    }
+    @include max-screen(428px){
+      font-size: 40px;
+    }
   }
   p{
     font-family: $main_font;
@@ -96,6 +134,15 @@ header{
     line-height: 28px;
     color: $main_color;
     margin-bottom: 26px;
+    @include max-screen(1074px){
+      font-size: 20px;
+    }
+    @include max-screen(1042px){
+      font-size: 18px;
+    }
+    @include max-screen(970px){
+      font-size: 22px;
+    }
   }
   a{
     font-family: $main_font;
@@ -115,6 +162,32 @@ header{
     position: absolute;
     right: 16%;
     top: 0;
+    @include max-screen(1630px){
+      right: 10%;
+    }
+    @include max-screen(1385px){
+      right: 8%;
+    }
+    @include max-screen(1321px){
+      right: 6%;
+    }
+    @include max-screen(1262px){
+      right: 4%;
+    }
+    @include max-screen(1205px){
+      right: 2%;
+    }
+    @include max-screen(1156px){
+      right: 0;
+    }
+    @include max-screen(975px){
+      left: 37%;
+    }
+    @include max-screen(974px){
+      position: relative;
+      width: 50%;
+      left: 20px;
+    }
   }
 }
 
@@ -291,6 +364,13 @@ header{
   }
   .description{
     max-width: 498px;
+    @include max-screen(840px){
+      margin-left: 66px;
+      margin-top: 20px;
+    }
+    @include max-screen(428px){
+      margin-left: 5px;
+    }
   }
   h3{
     font-family: $main_font;
@@ -309,6 +389,15 @@ header{
     line-height: 42px;
     color: $main_color;
     padding-bottom: 40px;
+    @include max-screen(1042px){
+      font-size: 30px;
+    }
+    @include max-screen(1001px){
+      font-size: 27px;
+    }
+    @include max-screen(940px){
+      font-size: 25px;
+    }
   }
   a{
     font-family: $main_font;
@@ -318,6 +407,11 @@ header{
     line-height: 20px;
     text-decoration-line: underline;
     color: $main_color;
+  }
+  .d-flex{
+    @include max-screen(840px){
+      flex-direction: column;
+    }
   }
 }
 
@@ -336,6 +430,16 @@ header{
   .description2{
     max-width: 513px;
     text-align: right;
+    @include max-screen(840px){
+      margin-right: 66px;
+      margin-top: 20px;
+    }
+    @include max-screen(600px){
+      margin-right: 75px;
+    }
+    @include max-screen(428px){
+      margin-right: 5px;
+    }
   }
   h3{
     font-family: $main_font;
@@ -354,6 +458,15 @@ header{
     line-height: 42px;
     color: $main_color;
     padding-bottom: 31px;
+    @include max-screen(1042px){
+      font-size: 30px;
+    }
+    @include max-screen(1001px){
+      font-size: 27px;
+    }
+    @include max-screen(940px){
+      font-size: 25px;
+    }
   }
   a{
     font-family: $main_font;
@@ -363,6 +476,11 @@ header{
     line-height: 20px;
     text-decoration-line: underline;
     color: $main_color;
+  }
+  .d-flex{
+    @include max-screen(840px){
+      flex-direction: column;
+    }
   }
 }
 
@@ -380,6 +498,16 @@ header{
   }
   .description3{
     max-width: 530px;
+    @include max-screen(840px){
+      margin-left: 66px;
+      margin-top: 20px;
+    }
+    @include max-screen(600px){
+      margin-left: 65px;
+    }
+    @include max-screen(428px){
+      margin-left: 5px;
+    }
   }
   h3{
     font-family: $main_font;
@@ -398,6 +526,15 @@ header{
     line-height: 42px;
     color: $main_color;
     padding-bottom: 39px;
+    @include max-screen(1042px){
+      font-size: 30px;
+    }
+    @include max-screen(1001px){
+      font-size: 27px;
+    }
+    @include max-screen(940px){
+      font-size: 25px;
+    }
   }
   a{
     font-family: $main_font;
@@ -408,6 +545,11 @@ header{
     text-decoration-line: underline;
     color: $main_color;
   }
+  .d-flex{
+    @include max-screen(840px){
+      flex-direction: column;
+    }
+  }
 }
 
 .list_icon{
@@ -415,6 +557,14 @@ header{
   padding-bottom: 290px;
   .logo_icon{
     width: 33%;
+    h5{
+      @include max-screen(1001px){
+        font-size: 27px;
+      }
+    }
+    @include max-screen(428px){
+      flex-wrap: wrap;
+    }
   }
   h4{
     font-family: $main_font;
@@ -431,6 +581,9 @@ header{
 }
 .list_icon_medium {
   text-align: center;
+  @include max-screen(1109px){
+    justify-content: space-around;
+  }
 }
 .list_icon_medium h5{
   font-family: $main_font;
@@ -441,8 +594,19 @@ header{
   color: $main_color;
   margin-bottom: 111px;
 }
+.list_icon_medium .logo_icon h5{
+  @include max-screen(515px){
+    font-size: 22px;
+  }
+  @include max-screen(480px){
+    font-size: 20px;
+  }
+}
 .list_icon_small{
   text-align: center;
+  @include max-screen(1109px){
+    justify-content: space-around;
+  }
 }
 .list_icon_small h5{
   font-family: $main_font;
@@ -453,6 +617,14 @@ header{
   color: $main_color;
   margin-bottom: 163px;
 }
+.list_icon_small .logo_icon h5{
+  @include max-screen(515px){
+    font-size: 22px;
+  }
+  @include max-screen(480px){
+    font-size: 20px;
+  }
+}
 .list_icon h6{
   font-family: $main_font;
   font-style: normal;
@@ -461,6 +633,9 @@ header{
   line-height: 42px;
   text-align: center;
   color: $main_color;
+  @include max-screen(1001px){
+    font-size: 30px;
+  }
 }
 
 
@@ -471,6 +646,10 @@ header{
   .logo_pic1{
     text-align: center;
     margin-top: -188px;
+    @include max-screen(900px){
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
   }
   h3{
     &:first-of-type{
@@ -556,6 +735,12 @@ header{
     text-decoration-line: underline;
     color: $main_color;
   }
+  .d-flex {
+    @include max-screen(900px){
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 }
 
 
@@ -626,10 +811,6 @@ header{
   height: 32px;
   margin-bottom: 16px;
 }
-
-
-
-
 .box_list{
   background: #020202;
   padding-top: 50px;
@@ -641,7 +822,12 @@ header{
     margin-right: 22px;
     margin-bottom: 96px;
   }
-  h4{
+  .icon{
+    @include max-screen(428px) {
+      margin-top: -10px;
+    }
+  }
+  h4 {
     font-family: $main_font;
     font-style: normal;
     font-weight: 400;
@@ -651,6 +837,89 @@ header{
     display: flex;
     align-items: flex-end;
     margin-left: 190px;
+    @include max-screen(960px) {
+      margin-left: 90px;
+    }
+    @include max-screen(803px) {
+      margin-left: -370px;
+    }
+    @include max-screen(790px) {
+      margin-left: -350px;
+      margin-bottom: 20px;
+    }
+    @include max-screen(770px) {
+      margin-left: -340px;
+    }
+    @include max-screen(720px) {
+      margin-left: -300px;
+    }
+    @include max-screen(700px) {
+      margin-left: -280px;
+    }
+    @include max-screen(680px) {
+      margin-left: -260px;
+    }
+    @include max-screen(650px) {
+      margin-left: -220px;
+    }
+    @include max-screen(600px) {
+      margin-left: -170px;
+    }
+    @include max-screen(550px) {
+      margin-right: 20px;
+    }
+    @include max-screen(535px) {
+      margin-right: -30px;
+    }
+    @include max-screen(515px) {
+      margin-right: 10px;
+    }
+    @include max-screen(480px) {
+      margin-right: 4px;
+    }
+    @include max-screen(428px) {
+      margin-right: -25px;
+      margin-bottom: 28px;
+    }
+  }
+  .title_link{
+    @include max-screen(1109px){
+      margin-left: 40px;
+    }
+    @include max-screen(1025px){
+      margin-left: 70px;
+    }
+    @include max-screen(574px){
+      margin-left: 10px;
+    }
+    @include max-screen(428px){
+      margin-left: -15px;
+    }
+  }
+  .item{
+    @include max-screen(1025px){
+      margin-right: 50px;
+    }
+    @include max-screen(930px){
+      margin-right: 10px;
+    }
+    @include max-screen(515px){
+      width: 300px;
+    }
+    @include max-screen(480px){
+      width: 290px;
+    }
+    @include max-screen(428px){
+      width: 270px;
+    }
+  }
+  .link_items{
+    @include max-screen(930px){
+      margin-left: 20px;
+    }
+    @include max-screen(550px){
+      margin-left: 20px;
+    }
   }
 }
 .link_items a{
@@ -689,11 +958,28 @@ header{
 .link_items li{
   margin-bottom: 12px;
   list-style: none;
+  @include max-screen(535px){
+    margin-right: 70px;
+  }
 }
 .owl-nav .owl-prev{
   position: absolute;
   left: -46px;
   top: 35%;
+  @include max-screen(1156px){
+    left: -25px;
+  }
+  @include max-screen(1120px){
+    left: -15px;
+  }
+  @include max-screen(1109px){
+    left: -5px;
+  }
+  @include max-screen(1089px){
+    position: absolute;
+    left: 40px;
+    top: -12%;
+  }
 }
 .owl-nav .owl-prev:before{
   font-family: "Font Awesome 6 Free";
@@ -706,6 +992,20 @@ header{
   position: absolute;
   right: -40px;
   top: 35%;
+  @include max-screen(1156px){
+    right: -25px;
+  }
+  @include max-screen(1120px){
+    right: -15px;
+  }
+  @include max-screen(1109px){
+    right: -5px;
+  }
+  @include max-screen(1089px){
+    position: absolute;
+    right: 40px;
+    top: -12%;
+  }
 }
 .owl-nav .owl-next:before{
   font-family: "Font Awesome 6 Free";
@@ -821,6 +1121,9 @@ body{
   padding-top: 15px;
   transition : all 0.3s ease-out;
   display: none;
+  @include max-screen(770px){
+    display: inline-block;
+  }
 }
 .menu-icon {
   height: 30px;
@@ -865,6 +1168,21 @@ body{
   z-index: 98;
   left: 0;
   top: 0;
+  @include max-screen(770px){
+    position: fixed;
+  }
+}
+.nav__content {
+  @include max-screen(770px){
+    position: fixed;
+    visibility: hidden;
+    top: 50%;
+    margin-top: 20px;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    width: 100%;
+    text-align: center;
+  }
 }
 .nav:before, .nav:after {
   content: "";
@@ -896,6 +1214,84 @@ body{
   margin: 0;
   z-index: 2;
   display: flex;
+}
+.nav__list-item {
+  @include max-screen(770px){
+    position: relative;
+    display: block;
+    -webkit-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+    opacity: 0;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8vh;
+    font-weight: 900;
+    line-height: 1.15;
+    letter-spacing: 3px;
+    -webkit-transform: translate(100px, 0%);
+    transform: translate(100px, 0%);
+    -webkit-transition: opacity .2s ease, -webkit-transform .3s ease;
+    transition: opacity .2s ease, -webkit-transform .3s ease;
+    transition: opacity .2s ease, transform .3s ease;
+    transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  a {
+    @include max-screen(770px) {
+      position: relative;
+      text-decoration: none;
+      color: rgba(255, 255, 255, 0.6);
+      overflow: hidden;
+      cursor: pointer;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-weight: 900;
+      z-index: 2;
+      display: inline-block;
+      text-transform: uppercase;
+      -webkit-transition: all 200ms linear;
+      transition: all 200ms linear;
+    }
+    &:after {
+      position: absolute;
+      content: '';
+      top: 50%;
+      margin-top: -2px;
+      left: 50%;
+      width: 0;
+      height: 0;
+      opacity: 0;
+      background-color: #8167a9;
+      z-index: 1;
+      -webkit-transition: all 200ms linear;
+      transition: all 200ms linear;
+    }
+    &:hover:after {
+      height: 4px;
+      opacity: 1;
+      left: 0;
+      width: 100%;
+    }
+    &:hover{
+      color: rgba(255,255,255,1);
+    }
+  }
+}
+.nav__list-item.active-nav a{
+  @include max-screen(770px) {
+    height: 4px;
+    opacity: 1;
+    left: 0;
+    width: 100%;
+  }
+}
+.nav__list {
+  @include max-screen(770px) {
+    display: block;
+  }
 }
 body.nav-active .nav__content {
   visibility: visible;
@@ -989,7 +1385,6 @@ body.nav-active .nav__list-item:nth-child(10) {
   -webkit-transition-delay: 1.7s;
   transition-delay: 1.7s;
 }
-
 .switch-wrap {
   position: absolute;
   top: 50%;
